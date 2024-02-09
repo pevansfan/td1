@@ -33,12 +33,12 @@ $nb2 = 4;
 
 <body>
     <div class="container mt-5">
-        <h1 class="<?php echo $bs_title_class?>"> Découverte des base du PHP</h1>
+        <h1 class="<?php echo "$bs_title_class" ?>"> Découverte des base du PHP</h1>
 
         <p class="text-justify" id="intro">
-            <abbr title="PHP: Hypertext Preprocessor"><?php echo $mot1?></abbr> est un acronyme récursif, qui signifie "<?php echo $mot2?>" : 
-            c'est un langage de <mark><?php echo $mot3?></mark> HTML,
-            exécuté côté <mark><?php echo $mot4?></mark> . Sa syntaxe est empruntée aux langages C, Java et Perl , et
+            <abbr title="PHP: Hypertext Preprocessor"><?php echo "$mot1?"?></abbr> est un acronyme récursif, qui signifie "<?php echo "$mot2?"?>" : 
+            c'est un langage de <mark><?php echo "$mot3?"?></mark> HTML,
+            exécuté côté <mark><?php echo "$mot4?"?></mark> . Sa syntaxe est empruntée aux langages C, Java et Perl , et
             est facile à apprendre. Le
             but de ce langage est de permettre aux développeurs web d'écrire des pages dynamiques rapidement, mais vous
             pouvez faire beaucoup plus avec PHP.
